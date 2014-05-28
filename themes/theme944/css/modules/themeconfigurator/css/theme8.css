@@ -1,0 +1,92 @@
+#index #page,
+#page {
+  background: url("../img/bg-theme7.gif"); }
+
+#header .sf-menu > li {
+  border-right: 1px solid #909ea2; }
+
+#htmlcontent_top ul li a:hover b {
+  border-color: #526b73;
+  background: #526b73; }
+
+#home-page-tabs > li a {
+  background: #777; }
+
+.button.ajax_add_to_cart_button:before,
+.button.ajax_add_to_cart_button:hover {
+  background: #333; }
+
+.price-percent-reduction,
+.price.product-price {
+  color: #526b73; }
+
+#homepage-slider .bx-wrapper .bx-pager.bx-default-pager a:hover,
+#homepage-slider .bx-wrapper .bx-pager.bx-default-pager a.active {
+  background: #f1d143;
+  color: #fff; }
+
+#homepage-slider .bx-wrapper .bx-pager.bx-default-pager a {
+  background: #333; }
+
+#htmlcontent_top ul li .item-html b {
+  border-color: #f1d143;
+  background: #f1d143; }
+
+#currencies-block-top ul li.selected,
+#currencies-block-top ul li:hover a,
+#currencies-block-top ul li:hover {
+  background: #f1d143; }
+
+#languages-block-top ul li.selected,
+#languages-block-top ul li:hover a {
+  background: #f1d143; }
+
+#header .sf-menu {
+  background: #526b73; }
+
+#header .sf-menu > li > a {
+  border-top: 5px solid #526b73; }
+
+#header .sf-menu > li.sfHover > a, #header .sf-menu > li > a:hover, #header .sf-menu > li.sfHoverForce > a {
+  background: #f1d143; }
+
+#htmlcontent_top ul li a {
+  background: #526b73; }
+
+#htmlcontent_top ul li a:hover {
+  background: #f1d143; }
+
+#search_block_top .btn.button-search {
+  background: #f1d143; }
+
+#home-page-tabs > li.active a,
+#home-page-tabs > li a:hover {
+  background: #f1d143; }
+
+.footer-container #footer #block_contact_infos > div ul li span a,
+.footer-container #footer a:hover,
+.footer-container #footer #social_block ul li a:before,
+.footer-container #footer #social_block ul li a:hover,
+.footer-container #footer #social_block ul li a:hover span,
+#cmsinfo_block em,
+#header .sf-menu li li li a:hover {
+  color: #f1d143; }
+
+.button.ajax_add_to_cart_button:hover:before,
+.button.ajax_add_to_cart_button,
+#htmlcontent_home ul a .item-html b {
+  background: #f1d143; }
+
+#languages-block-top div.current.active,
+#languages-block-top div.current:hover,
+#currencies-block-top div.current:hover,
+#currencies-block-top div.current.active {
+  color: #fff; }
+
+.shopping_cart > a:first-child {
+  background: #f1d143; }
+
+.content_sortPagiBar .display li.selected i,
+.content_sortPagiBar .display li.selected,
+.content_sortPagiBar .display_m li.selected i {
+  color: #f1d143; }
