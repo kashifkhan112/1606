@@ -1,0 +1,247 @@
+@import "compass";
+@import "theme_variables";
+
+/* Top hook CSS */
+#htmlcontent_top {
+	@media (max-width: $screen-xs-max) { // max 767px	
+	}
+	ul {
+
+		li {		
+			margin-bottom: 20px;
+			
+			@media (max-width: $screen-xs-max) { // max 767px
+				float: left;
+				padding-left: 15px;
+				padding-right: 15px;
+				width: 50%;
+
+				@media (max-width: $screen-xs - 1) { // max 479px
+					width: 100%;
+					float: none;
+
+					img {
+						width: 100%;
+					}
+				}
+			}
+			&:last-child{
+				margin-bottom: 0;
+			}
+
+			a{
+				display: block;
+				background:#333;
+
+				&:hover {
+					background: #d72a2a;
+				}
+
+				&:hover b {
+					background: #333;
+					border: 1px solid #333; 
+				}
+
+				h2{color:white;}
+				span{
+					color: white;
+					line-height: 20px;
+					display: block;
+				}
+			}
+			img {
+				max-width: 100%;
+				height: auto;
+				.ie8 {
+	            max-width: inherit;
+                }
+				@media (min-width: $screen-xs) and (max-width: $screen-xs-max) { // min 480px max 767px
+					width: 100%;
+       			}
+			}
+
+			.item-html{ 
+				margin-top: -76px;
+				padding: 0 15px 20px 16px;
+
+				@media  (max-width: $screen-sm-max) { // max 991px
+					margin-top: 15px;
+				}
+
+				h2 {
+					margin: 0 0 30px;
+					font-weight: 900;
+					letter-spacing: -1px;
+					text-transform: uppercase;
+					font-size: 41px;
+					line-height: 32px;
+					@media (min-width: $screen-md) and (max-width: $screen-md-max) { // min 992px max 1199px
+						 font-size: 30px;
+						 line-height: 32px;	
+					}
+					@media (max-width: $screen-sm-max) { // max 991px
+						margin-bottom: 15px;
+						font-size: 23px;
+						line-height: 25px;
+					}
+
+					span {
+						margin-top: 6px;
+						display: block;
+						font-size: 29px;
+						@media (min-width: $screen-md) and (max-width: $screen-md-max) { // min 992px max 1199px
+							font-size: 23px;
+						}
+						@media  (max-width: $screen-sm-max) { // min 768px max 991px
+							font-size: 16px;
+						}
+					}
+				}
+
+				b {
+					background: #d72a2a;
+					font-size: 18px;
+					display: inline-block;
+					text-shadow: 1px 1px 1px #333;
+					color: #fff;
+					padding: 7px 6px 8px;
+					text-transform: uppercase;
+					font-weight: 900;
+					margin-top: 15px;
+					border: 1px solid #d72a2a;
+				}
+			}
+		}
+	}
+}
+
+/* Home hook CSS */
+#htmlcontent_home {
+	ul {
+		li {
+			margin-bottom: 21px;
+
+			@media (max-width: $screen-xs - 1) { // max 479px
+				width: 100%;
+			}
+			img {
+				max-width: 100%;
+				height: auto;
+				.ie8 {
+	            max-width: inherit;
+                }
+				@media (max-width: $screen-xs - 1) { // max 479px
+					min-width: 100%;
+				}
+			}
+			&.htmlcontent-item-5 {				
+				@media (max-width: $screen-xs - 1) { // max 479px
+					width: 100%;
+				}
+			}
+		}
+
+
+		a {
+			display: block;
+			color: #fff;
+			position: relative;
+
+			.item-html {
+				top: 25px;
+				position: absolute;
+				left: 19px;	
+				padding-right: 25px;
+				@media (min-width: $screen-xs) and (max-width: $screen-xs-max) { // min 480px max 767px
+					top: 10px;
+       			}		
+
+				h2 {
+					margin: 0 0 3px;
+					font-weight: 900;
+					letter-spacing: -1px;
+					text-transform: uppercase;
+					font-size: 43px;
+					line-height: 27px;
+					@media (min-width: $screen-md) and (max-width: $screen-md-max) { // min 992px max 1199px
+						font-size: 30px;
+						margin-bottom: 10px;
+					}
+					@media  (max-width: $screen-sm-max) { // max 991px
+						font-size: 22px;
+						line-height: 22px;
+					}
+					span {
+						margin-top: 7px;
+						display: block;
+						font-size: 29px;
+						@media (min-width: $screen-md) and (max-width: $screen-md-max) { // min 992px max 1199px
+							font-size: 25px;
+						}
+						@media  (max-width: $screen-sm-max) { // max 991px
+							font-size: 19px;
+							line-height: 20px;
+							margin-top: 4px;
+						}
+					}
+				}
+
+				span {
+					font-size: 12px;
+					display: block;
+					line-height: 20px;
+					font-weight: 300;
+					@media (max-width: $screen-md-max) { // max 1199px
+						display: none;
+					}
+				
+				}
+
+				b {
+					background: #d72a2a;
+					font-size: 18px;
+					display: inline-block;
+					text-shadow: 1px 1px 1px #333;
+					color: #fff;
+					padding: 8px 9px 9px;
+					text-transform: uppercase;
+					font-weight: 700;
+					margin-top: 5px;
+					@media (max-width: $screen-sm-max) { //  max 991px
+						display: none;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+/* Footer hook CSS */
+#htmlcontent_footer {
+	@media (max-width: $screen-xs-max) { // max 767px	
+float: none;
+}
+	> ul{margin: 0;
+	&:after,
+	&:before{display: none;padding: 0;}
+	li{float: none;width: auto;padding: 0;
+		img{max-width:100%;
+			height: auto; 
+			.ie8 {
+		 		max-width: inherit;
+	            }
+	    	}
+		}
+	}
+}
+
+
+/* Left hook CSS */
+#htmlcontent_left {
+}
+
+/* Right hook CSS */
+#htmlcontent_right {
+}
+

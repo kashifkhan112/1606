@@ -1,0 +1,113 @@
+@import "compass";
+@import "theme_variables";
+
+/* ************************************************************************************************
+								Categories Page Styles
+************************************************************************************************ */
+.content_scene_cat {
+	border-top: 5px solid $dark-border-color;
+	color: #777;
+	line-height: 19px;
+	margin: 0 0 26px 0;
+	.content_scene_cat_bg {
+		padding: 18px 260px 20px 20px;
+		background-color: #fff !important;
+		
+		@media (max-width: $screen-xs - 1) { // max 479px
+			padding: 220px 20px 20px;
+			background-position: 45% 15px !important;
+		}
+	}
+	span.category-name {
+		font: bold 30px/40px $font-custom;
+		color: #333;	
+		margin-bottom: 12px;
+		@media  (max-width: $screen-md-max) { // max 1199px
+			font-size: 25px;
+			line-height: 30px;
+		}
+	}
+
+	
+	p {
+		margin-bottom: 0;
+	}
+	a {
+		color: #333;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+	.content_scene {
+		color: $base-body-color;
+		.cat_desc {
+			padding-top: 20px;
+			a {
+				color: $link-color;
+				&:hover {
+					color: $link-hover-color;	
+				}
+			}
+		}
+	}
+}
+
+/* ************************************************************************************************
+									Sub Categories Styles
+************************************************************************************************ */
+
+#subcategories {
+	border-top: 1px solid $base-border-color;
+	padding: 15px 0 0px 0;
+	p.subcategory-heading {
+		font-weight: bold;
+		color: $base-text-color;
+		margin: 0 0 15px 0;
+	}
+	ul {
+		margin: 0 0 0 -20px;
+		li {
+			float: left;
+			width: 128px;
+			margin: 0 0 13px 20px;
+			text-align: center;
+			height: 230px;
+
+			.subcategory-image {
+				padding: 0 0 8px 0;
+
+				a {
+					display: block;
+					padding: 9px;
+					border: 1px solid $base-border-color;
+					background: #fff;
+
+					img {
+						max-width: 100%;
+						vertical-align: top;
+					}
+				}
+			}
+			.subcategory-name {
+				font: 600 18px/22px $font-custom;
+				color: $base-heading-color;
+				text-transform: uppercase;
+				&:hover {
+					color: $link-hover-color;	
+				}
+			}
+			.cat_desc { 
+				display: none;
+			}	
+			&:hover {
+				.subcategory-image {
+					a {
+						border: 1px solid $dark-border-color;
+					}
+				}	
+			}
+		}
+	}
+}
+
+
